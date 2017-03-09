@@ -2,12 +2,15 @@
 
 # funcs
 main() {
-  open "$1" -a iTerm.app
+  open -a iTerm "$1"
 }
 
 # run main
 if [ -z "1" ]; then
   main $PWD
 else
-  main "$1"
+  case $1 in
+    "-h") main $HOME ;;
+    *) main $1 ;;
+  esac
 fi
