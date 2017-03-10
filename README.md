@@ -17,7 +17,7 @@ ln cloneterm.sh /usr/local/bin/cloneterm
 
 Now you're all set to go!
 
-# iTerm Specific Install
+### iTerm Specific Install
 For [iTerm2](https://www.iterm2.com/) there are some additional steps. The default
 for iTerm2 is to open a new tab, and not a new window. **If you like tabs then
 skip this part**. Otherwise we are going to change it:
